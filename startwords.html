@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>以某个字开头的成语查询器</title>
+</head>
+<body>
+    <div style='text-align:center;margin-top:8%;border:1px solid rgb(200,200,200);padding:5%;border-radius:5px;'>
+        <div>
+                <input type='text' id='chengyu' class='inptools' onkeypress="edn1(event)" placeholder='输入某个字进行查询，比如“一”'>
+                <button onclick='words("chengyu")' class='btntools'>查询成语</button>
+                
+            </div>
+        <br>
+        <p style='font-size:0.8em;color:rgb(150,150,150)'><strong>提示</strong>：点击成语即可查询成语的意思（内容仅供参考，不保证正确性，不作任何决策依据）。</p>
+        <div id='result'></div>
+        </div>
+        
+        
+        
+        <style>
+            .inptools{border-radius: 5px; width:50%;height:38px;border: 1px solid rgb(150,150,150); text-indent: 1em;}
+            .inptools:focus{box-shadow: 1px 1px 5px skyblue;outline: none;}
+            .btntools{background-color: skyblue;border-radius: 5px;border: none;height: 38px;font-size: 1em;color:white;}
+            .btntools:hover{cursor: pointer; background-color: rgb(118, 183, 209);}
+            .btntools:active{background-color: blue;}
+            #result{margin-top:6%;}
+            h1{text-align:center;}
+        .yw p{font-size:1.25em;}
+        </style>
+        
+         <script src='../../static/js/startwords.js'></script>
+        
+    <!-- js文件的引入路径可以根据具体情况改变 -->
+</body>
+</html>
