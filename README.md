@@ -5,4 +5,4 @@ demo（例子）：[笨鸟用具成语接龙查询器在线](https://www.x1y1z1.
 
 2、startwords.js和startwords.html可创建在线的以某个字开头的成语的查询，demo（例子）：[以某个字开头的成语在线查询器](https://www.x1y1z1.com/tools/startwords.html)
 
-3、3、includewords.js和includewords.html可以创建查询包含某个字的成语查询器，demo：[包含某一个字的成语免费查询器在线](https://www.x1y1z1.com/tools/includewords.html)
+3、includewords.js和includewords.html可以创建查询包含某个字的成语查询器，demo：[包含某一个字的成语免费查询器在线](https://www.x1y1z1.com/tools/includewords.html)
